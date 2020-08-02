@@ -3,7 +3,7 @@
 ## Initialize Agora Engine
 * This is the first step to use agora SDK. For more information, 
 visit docs.agora.io
-`
+* `
 var client = AgoraRTC.createClient({mode: 'live', codec: "h264"});
 client.init(<APPID>, function () {
   console.log("AgoraRTC client initialized");
@@ -14,6 +14,7 @@ client.init(<APPID>, function () {
 ## Set Local View
 * Now set local view to make video call. Please accept the access request from 
 the browser when prompted. 
+* 
 `
 localStream.init(function() {
   console.log("getUserMedia successfully");
